@@ -23,9 +23,6 @@ export default function Welcome() {
         setIsLoading(true);
         const { data } = await api.get(`/welcome/${id}`);
         setName(data.name);
-        toast.success('Logado com sucesso!', {
-          position: toast.POSITION.BOTTOM_CENTER,
-        });
       } catch (error) {
         toast.error(error.response?.data.error, {
           position: toast.POSITION.BOTTOM_CENTER,
