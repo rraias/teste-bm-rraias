@@ -22,7 +22,7 @@ Quando a instalação terminar, realize o comando no terminal:
 
 ou
 
-`npm dev`
+`npm run dev`
 
 Pronto! O servidor estará funcionando.
 
